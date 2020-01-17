@@ -1,0 +1,16 @@
+body {
+    font-size: 14px;
+}
+
+main[role="main"] {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+section[role=logging] {
+    margin: 2rem;
+}
+
+section[role=logging] pre {
+    margin: 0 0 1rem 0;
+}

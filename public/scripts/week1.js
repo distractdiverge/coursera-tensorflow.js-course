@@ -47,7 +47,9 @@
 
     doTraining(model, xs, ys)
         .then(() => {
-            const desiredOutput = tf.tensor2d([10], [1,1]);
+            const input = 10;
+            logging.log(`Training Complete, Using the model on input = ${input}`);
+            const desiredOutput = tf.tensor2d([input], [1,1]);
             const prediction = model.predict(desiredOutput);
             logging.log(prediction, 'MODEL PREDICTION');
         })

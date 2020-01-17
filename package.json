@@ -1,0 +1,14 @@
+{
+  "name": "coursera-tensorflow.js-course",
+  "version": "1.0.0",
+  "description": "Coursera's Tensorflow.js Course Code",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Alex Lapinski <contact@alexlapinski.name>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}
